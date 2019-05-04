@@ -2,7 +2,7 @@ import json
 import requests
 from PIL import Image
 
-api_key = "b4a11c7d88f74105a5f101333193004"
+api_key = ""
 api_base = "http://api.apixu.com/v1/forecast.json?key="+api_key+"&q=GL50 3JR&days=1"
 
 class GetWeather(object):
